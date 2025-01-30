@@ -1,4 +1,3 @@
----
 name: Custom issue template
 about: Roadmap Item
 title: ''
@@ -30,8 +29,5 @@ body:
       default: 0
     validations:
       required: false
- 
-
----
 
 
