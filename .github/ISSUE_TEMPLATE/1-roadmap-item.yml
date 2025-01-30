@@ -1,13 +1,17 @@
 name: "🌟 Roadmap Item"
 labels: "Type:Roadmapitem"
 description: "How does it create added value?"
-projects: ["opencloud-eu/2"]
+projects: ["orgs/opencloud-eu/projects/2"]
 body:
   - type: textarea
     id: roadmap-description
     attributes:
       label: "Description"
       description: "Describe how this adds value"
-      value: Userstory | As a ..., I want to ... so that ... (stick to whom, what, why) | Acceptance criteria | - 
+      value: |
+        Userstory
+        As a ..., I want to ... so that ... (stick to whom, what, why)
+        Acceptance criteria
+         - 
     validations:
       required: false
