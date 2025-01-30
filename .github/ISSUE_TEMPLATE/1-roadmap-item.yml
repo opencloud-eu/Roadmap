@@ -1,9 +1,7 @@
 name: "🌟 Roadmap Item"
 labels: "Type:Roadmapitem"
 description: "How does it create added value?"
-title: " "
-  attributes:
-    placeholder: "Describe the value that should be created, not the feature"
+title: "Describe the value that should be created, not the feature"
 projects: "opencloud-eu/2"
 body:
   - type: textarea
