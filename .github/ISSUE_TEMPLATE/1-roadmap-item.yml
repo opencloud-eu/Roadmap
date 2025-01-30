@@ -12,6 +12,10 @@ body:
       value: |
         # Userstory
         As a ..., I want to ... so that ... (stick to whom, what, why)
+        
         # Acceptance criteria
+        - Criterion 1
+        - Criterion 2
+        - Criterion 3
     validations:
       required: false
