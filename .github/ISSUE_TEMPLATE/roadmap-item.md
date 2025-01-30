@@ -1,4 +1,5 @@
 name: 👩🏽‍💻 User story
+about: Roadmap Issue
 labels: Type:Story
 description: Share an idea with clear user value
 body:
