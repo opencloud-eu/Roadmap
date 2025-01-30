@@ -12,6 +12,5 @@ body:
         Userstory
         As a ..., I want to ... so that ... (stick to whom, what, why)
         Acceptance criteria
-         - 
     validations:
       required: false
