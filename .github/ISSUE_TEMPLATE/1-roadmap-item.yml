@@ -10,8 +10,8 @@ body:
       label: "Description"
       description: "Describe how this adds value"
       value: |
-        Userstory
+        "#" Userstory
         As a ..., I want to ... so that ... (stick to whom, what, why)
-        Acceptance criteria
+        "#" Acceptance criteria
     validations:
       required: false
