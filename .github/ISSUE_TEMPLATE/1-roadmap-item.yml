@@ -1,32 +1,48 @@
-name: "Roadmap Item"
-description: "Create a Roadmap Item"
-title: "Roadmap Item"
-  placeholder: Describe the value that should be created, not the feature
-labels: ["Roadmap-Milestone"]
-projects: ["opencloud-eu/projects/2"]
-assignees:
-  - tbsbdr
+name: 🐛 Bug report
+labels: Type:Bug
+description: Help us find bugs
 body:
-  - type: textarea
-    id: description
-    attributes:
-      label: Description
-      description: Add a userstory and some 
-      placeholder: ## As a ..., I want to ... so that ...
-      value: "## As a ..., I want to ... so that ..."
-    validations:
-      required: false
   - type: checkboxes
-    id: platform
+    id: initial-checklist
     attributes:
-      label: Platform
-      multiple: true
+      label: Initial Checklist
       options:
-        - Server
-        - Web
-        - Desktop App
-        - Android App
-        - iOS App
-      default: 0
+        - label:
+            I understand this is a bug report and questions should be posted in
+            the [Community Discussions](https://github.com/orgs/opencloud-eu/discussions/)
+          required: true
+        - label:
+            I searched
+            [issues](https://github.com/opencloud-eu/web/issues?q=is%3Aissue)
+            and couldn’t find anything (or linked relevant results below)
+          required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: Briefly describe the bug.
     validations:
-      required: false
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Reproduction Steps
+      description:
+        How did this happen? Please provide a [minimal, reproducible
+        example](https://stackoverflow.com/help/minimal-reproducible-example).
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Outcome
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Outcome
+      description: What actually happened?
+    validations:
+      required: true
