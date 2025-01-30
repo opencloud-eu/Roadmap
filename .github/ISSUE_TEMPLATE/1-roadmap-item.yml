@@ -8,6 +8,6 @@ body:
     attributes:
       label: "Description"
       description: "Describe how this adds value"
-      value: "#" Userstory | As a ..., I want to ... so that ... (stick to whom, what, why) | "#" Acceptance criteria | - 
+      value: Userstory | As a ..., I want to ... so that ... (stick to whom, what, why) | Acceptance criteria | - 
     validations:
       required: false
