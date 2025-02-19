@@ -1,7 +1,7 @@
-name: "🌟 Roadmap Item"
+name: "📦 Roadmap Item"
 labels: "Type:Roadmapitem"
-description: "How does it create added value?"
-title: "Describe the value that should be created, not the feature"
+description: "Highlevel item users love and actively thank us for"
+title: "[name] Value that should be created (not the feature)"
 projects: "opencloud-eu/2"
 body:
   - type: textarea
@@ -10,12 +10,9 @@ body:
       label: "Description"
       description: "Describe how this adds value"
       value: |
-        # Userstory
-        As a ..., I want to ... so that ... (stick to whom, what, why)
-        
-        # Acceptance criteria
-        - Criterion 1
-        - Criterion 2
-        - Criterion 3
+        # Value
+        - Value 1
+        - Value 2
+        - Value 3
     validations:
       required: false
