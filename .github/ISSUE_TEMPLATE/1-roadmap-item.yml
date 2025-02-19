@@ -14,5 +14,17 @@ body:
         - Value 1
         - Value 2
         - Value 3
+
+        # Release Note
+        ## Advanced search
+        The advanced search makes it easier to find files even when you don’t remember the exact name or location.
+        - **OCR** (Optical Character Recognition): Find scanned documents and images by searching their text.
+        - **Full-Text Search**: Locate files by searching within their content.
+        - **Tags**: Retrieve files based on assigned keywords.
+        - **Filter** by File Type, Modified Date, and Location Filters: Narrow down results when details are unclear.
+        - **Filename-Only** Search: Quickly find files when you know the name.
+
+        These advanced search features reduce time spent searching by allowing you to refine results step by step, helping you locate the right file even with limited information.
+
     validations:
       required: false
